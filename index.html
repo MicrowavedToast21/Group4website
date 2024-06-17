@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/images/Captura%20de%20pantalla%202024-06-14%20a%20las%2012.26.47.png">
+    <title>Cyclon Energy Drink</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .hidden {
+            display: none;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: white;
+            background-color: blue;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            cursor: pointer;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <img src="images/Captura de pantalla 2024-06-14 a las 12.26.47.png" width="260" height="260">
+    <button class="button" onclick="showSection('home')">Menu</button>
+    <button class="button" onclick="showSection('Menu')">Acerca de Cyclon y sus beneficios</button>
+    <button class="button" onclick="showSection('Efectos-biologicos')">Efectos biológicos detrás de cyclon y las bebidas energéticas</button>
+    <button class="button" onclick="showSection('Más información sobre las bebidas energeticas')">Más información sobre las bebidas energéticas</button>
+</header>
+
+<main>
+    <div id="home" class="section">
+        <h1>¡Cyclon energy drink!</h1>
+        <h2>Creado por: Leo, Nico, Juan, Jorge, Miriam y Laura</h2>
+        <img src="images/Captura de pantalla 2024-06-14 a las 12.26.47.png" width="260" height="145">
+        <img src="images/giphy.gif" width="260" height="145">
+        <ul>
+            <h1 style="color: blue; text-align: center; margin-bottom: 10px;">¡Energética! &#9889</h1>
+            <h1 style="color: blue; text-align: center; margin-bottom: 10px;">¡Potente! &#128267</h1>
+            <h1 style="color: blue; text-align: center; margin-bottom: 50px;">¡Fuerte! &#128170</h1>
+            <p>"Gracias a cyclon estoy siempre lleno de energía para empezar el día, 4/5"
+            -Eddy Merckx</p>
+        </ul>
+    </div>
+
+    <div id="Menu" class="section hidden">
+        <h3 style="color: blue; text-align: center; margin-bottom: 10px;">Acerca de Cyclon &#128071;</h3>
+        <ul>
+            <li>Nuestra modalidad de la botella, tiene un efecto sobrenatural en el cuerpo humano.</li>
+            <li style="margin-bottom: 50px;">Ayuda a perder grasa</li>
+            <img src="images/bebiendo%20bebida%20energetica.webp" width="260" height="145">
+            <img src="images/bebidaenergetica.jpeg" width="260" height="145">
+        </ul>
+        <div class="additional-text">
+            <h3 style="color: blue; text-align: center; margin-bottom: 10px;">Beneficios de Cyclon</h3>
+            <ul>
+                <li>Esta botella incrementa el rendimiento exponencialmente ya que sirve como un regenerador constante de las fibras que son micro desgarradas mientras se hace ejercicio.</li>
+                <li>Es un proceso bastante complejo. Cuando las fibras musculares son estimuladas, se producen cambios metabólicos como la depleción de ATP, lo que conlleva a la activación de señales intracelulares.</li>
+                <li>Los micro desgarros del ejercicio estimulan una respuesta inflamatoria que atrae a células del sistema inmune como los macrófagos al área dañada, estas células tienen funciones que estimulan el crecimiento y citoquinas (pequeñas proteínas cruciales para controlar el crecimiento de células del sistema inmunitario), que son esenciales para la reparación y crecimiento muscular.</li>
+            </ul>
+        </div>
+        <div class="ingredientes">
+            <h1 style="text-align: center;">Ingredientes</h1>
+            <h3 style="color: blue; text-align: center; margin-bottom: 10px;">Latas de Aluminio reciclado</h3>
+            <table style="width:100%">
+                <tr>
+                    <th style="color: blue;">Ventajas</th>
+                    <th style="color: blue;">Desventajas</th>
+                </tr>
+                <tr>
+                    <td><strong>Reciclabilidad:</strong> El aluminio es altamente reciclable y el proceso de reciclaje es eficiente en términos de energía.</td>
+                    <td><strong>Consumo Energético:</strong> La producción inicial de aluminio es intensiva en energía, aunque esto se compensa en parte por la eficiencia del reciclaje.</td>
+                </tr>
+                <tr>
+                    <td>100% reciclable con una huella de carbono baja al ser reciclado.</td>
+                    <td>Requiere un proceso energético para el reciclaje.</td>
+                </tr>
+                <tr>
+                    <td><strong>Peso:</strong> Ligero y fácil de transportar.</td>
+                    <td>Puede reaccionar con bebidas ácidas si no está revestido adecuadamente.</td>
+                </tr>
+            </table>
+        </div>
+        <div class="additional-text4">
+            <h3 style="color: blue; text-align: center; margin-bottom: 10px;">Cantidad de Cafeina usada</h3>
+            <ul>
+                <li>3-6 mg/kg de masa corporal para que la cafeína sea eficiente pero no perjudicial. Se recomienda</li>
+                <li>4,5 el valor que hemos considerado apto</li>
+                <li>Para la media de masa corporal en España hombres → 81,62 se recomienda 367,31 mg/kg</li>
+                <li>Para la media de masa corporal en España mujeres → 67,33 se recomienda 302,96 mg/kg</li>
+                <li>El límite sano es 400mg</li>
+            </ul>
+        </div>
+        <div class="additional-text5">
+            <h3 style="color: blue; text-align: center; margin-bottom: 10px;">Nuestro diseño de la botella</h3>
+            <p>El tapón de la lata no se puede quitar completamente para que no contamine.
+                Si traen la lata de aluminio utilizada, y nosotros nos encargamos de reciclarlo para construir más latas sin tener que dañar el medioambiente, se les reduce 50 céntimos de la siguiente bebida. Así no se gastan tanto los recursos y no terminan generando basura en la calle o el mar.</p>
+            <img src="images/Captura%20de%20pantalla%202024-06-14%20a%20las%2012.57.53.png" width="200" height="145">
+            <img src="images/Captura%20de%20pantalla%202024-06-14%20a%20las%2012.58.12.png" width="200" height="145">
+        </div>
+    </div>
+
+    <div id="Efectos-biologicos" class="section hidden">
+        <div class="content">
+            <h3 style="color: blue; text-align: center; margin-bottom: 10px;">Efectos biológicos detrás de cyclon y las bebidas energéticas</h3>
+            <ul>
+                <li style="margin-bottom: 10px;">Las células madre musculares se encuentran entre la membrana basal y el sarcolema de las fibras musculares, y son conocidas como células satélite. Estas células permanecen a la espera hasta que son activadas debido a un estímulo; daño muscular. Las células satélite se dividen y posteriormente se diferencian en mioblastos, célula precursora de las fibras musculares. Ya que están las células agrietadas, estas han de ser reparadas para crecer y fortificar el músculo. Las  fibras musculares aumentan la cantidad de glucógeno, lo que mejora la resistencia debido a que dispone de glucosa 1- fosfato lo que permite la glucólisis (descomposición parcial de la glucosa). Nuestra bebida servirá como un catalizador para este proceso, reduciendo el tiempo enormemente, a un efecto inmediato a los 30 minutos. Esto hace de nuestro producto único en comparación con recuperaciones de 3-7 días o incluso alargando a un par de meses.</li>
+                <li style="margin-bottom: 10px;">La lipólisis es el proceso biológico en el cual en una serie de eventos hormonales, metabólicos y celulares un organismo pierde grasa. En este proceso los triglicéridos almacenados en los adipocitos (células de grasas) se descomponen en 3 ácidos grasos y glicerol a través de la acción de enzimas como la lipasa. Nuestras bebidas son muy bajas caloricamente por lo que lograr esa pérdida de grasas será de gran ayuda. Por ello, nuestra bebida muy baja caloricamente en torno a 150 calorías ayudará a procesar más rápido.</li>
+                <li style="margin-bottom: 10px;"> La adenosina es un neurotransmisor que contribuye a la relajación y la somnolencia, por ello al bloquear estos receptores, la cafeína reduce tal sensación de fatiga e incrementa el estado de atención y vigilancia. No solo eso, la cafeína aumenta la liberación de catecolaminas (hormonas del estrés) como la adrenalina las cuales contribuyen a una elevada frecuencia cardíaca, flujo sanguíneo muscular y eficiencia energética. Por ello el incremento de teobromina puede tomar un gran papel en mantener un alto nivel de productividad a la hora de hacer ejercicio; incluyendo deportes, levantamiento de pesas o correr durante periodos de tiempo prolongados. Nosotros utilizamos el valor ideal previamente calculado por mis compañeras, ya que un exceso puede producir riesgos innecesarios, por ello ofrecemos rangos para pesos distintos para potenciar al máximo las capacidades a la hora de realizar ejercicio.</li>
+                <img src="images/celulasmadres.jpeg" width="560" height="545">
+            </ul>
+        </div>
+    </div>
+
+    <div id="Más información sobre las bebidas energeticas" class="section hidden">
+        <h3 style="color: blue; text-align: center; margin-bottom: 10px;">Información sobre las bebidas energéticas </h3>
+        <p><a href="https://www.energydrinkseurope.org/es/datos/que-son-las-bebidas-energeticas/" style="color: blue">Por más información sobre las bebidas energéticas visita esta página web</a></p>
+        <p><a href="https://www.monsterenergy.com/en-us/" style="color: blue">Por más información sobre las bebidas energéticas visita esta página web</a></p>
+    </div>
+</main>
+
+<footer>
+    <p>&copy; 2024 Cyclon energy inc</p>
+    <img src="images/Captura de pantalla 2024-06-14 a las 12.26.47.png" width="160" height="100">
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
